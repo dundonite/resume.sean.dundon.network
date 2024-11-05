@@ -1,0 +1,24 @@
+{
+  "name": "Résuménder",
+  "version": "0.1.0",
+  "description": "Résuménder is a simple application to build a resume website with downloadable docx and pdf versions from a jsonresume.org resume and automatically deploy it to Github pages.",
+  "homepage": "https://github.com/dundonite/resumender#readme",
+  "bugs": {
+    "url": "https://github.com/dundonite/resumender/issues"
+  },
+  "license": "MIT-0",
+  "private": true,
+  "author": "Sean Dundon (https://sean.dundon.network/)",
+  "repository": "github:dundonite/resumender",
+  "dependencies": {
+    "jsonresume-theme-local": "file:./theme",
+    "puppeteer": "^23.6.1",
+    "resumed": "^4.0.0",
+    "sharp": "^0.33.5",
+    "node-pandoc": "^0.3.0"
+  },
+  "type": "module",
+  "scripts": {
+    "validate": "resumed validate"
+  }
+}
